@@ -1,8 +1,8 @@
 from PIL import Image, ImageDraw, ImageFont
 import random
 
-
-FUNKYFUTURE_x8 = (["#2b0f54","#ab1f65","#ff4f69","#fff7f8","#ff8142","#ffda45","#3368dc","#49e7ec"],8)
+#palette taken from: https://lospec.com/palette-list/funkyfuture-8
+FUNKYFUTURE_x8 = ["#2b0f54","#ab1f65","#ff4f69","#fff7f8","#ff8142","#ffda45","#3368dc","#49e7ec"]
 
 
 def generatePixelImage(pallete,imageWidth, imageHeight,fileName):
